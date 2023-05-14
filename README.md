@@ -10,12 +10,12 @@ This is a simple CRUD (Create, Read, Update, Delete) project that allows you to 
 ## npm start
 
 ```javascript
-to run the server local
+to run the server local without using of docker
 ```
 ## docker-compose up --build
 
 ```javascript
-it will run both front and backend at the same time 
+it will run both backend first then frontend 
 ```
 
 ## frontend run at 
