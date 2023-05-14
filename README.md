@@ -15,7 +15,7 @@ to run the server local without using of docker
 ## docker-compose up --build
 
 ```javascript
-it will run both backend first then frontend 
+it will run  backend first then frontend 
 ```
 
 ## frontend run at 
