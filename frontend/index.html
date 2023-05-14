@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="/frontend/index.css" /> -->
+    <!-- <link rel="stylesheet" href="/frontend/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css"
+    />
+    <title>Cloud</title>
+  </head>
+  <body id="body">
+    <div class="container mt-5 mb-5">
+      <table class="table table -striped" id="userstable">
+        <thead>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <button type="button" onclick="show_table()" style="background-color: blue
+    ;color:white;"id="show_table">Add Person</button>
+    <form id="form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" /><br /><br />
+      <label for="gender">Gender:</label>
+      <input type="text" id="gender" name="gender" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <button type="button" onclick="addPerson()" id="Addperson">Add Person</button>
+      <button type="button" onclick="updatePerson()" id="updateBtn">Update Person</button>
+    </form>
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+  </body>
+</html>
