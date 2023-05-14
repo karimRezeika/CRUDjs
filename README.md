@@ -17,3 +17,11 @@ to run the server local
 ```javascript
 it will run both front and backend at the same time 
 
+## FRONTEND RUN AT 
+```javascript
+(http://localhost:4444/)
+
+## BACKEND RUN AT 
+```javascript
+(http://localhost:3000/)
+
